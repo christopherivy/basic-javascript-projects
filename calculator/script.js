@@ -17,7 +17,6 @@ equalBtn.addEventListener('click', function () {
 	if(screen.value === '') {
 		equalBtn.getElementById('btn-equal').disabled = true;
 	} else {
-
 		let value = eval(screen.value);
 		screen.value = value;
 	}
